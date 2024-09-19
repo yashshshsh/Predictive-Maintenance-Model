@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.heroRight ::-webkit-scrollbar {
+  display: none;
+}
+
+.demow ::-webkit-scrollbar {
+  display: none;
+}
+
+.demow {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.mac ::-webkit-scrollbar {
+  display: none;
+}
+
+.mac  {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html, body {
+  overflow: hidden; 
+  height: 100%; 
+}
